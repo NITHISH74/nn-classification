@@ -1,10 +1,10 @@
-# Developing a Neural Network Classification Model
+# EX02--Developing a Neural Network Classification Model
 
-## AIM
+## AIM:
 
 To develop a neural network classification model for the given dataset.
 
-## Problem Statement
+## Problem Statement:
 
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
 
@@ -12,11 +12,11 @@ In their existing market, the sales team has classified all customers into 4 seg
 
 You are required to help the manager to predict the right group of the new customers.
 
-## Neural Network Model
+## Neural Network Model:
 
 ![image](https://user-images.githubusercontent.com/94219582/228421311-20c18818-70a5-4be2-9b02-d29cd5d504ac.png)
 
-## DESIGN STEPS
+## DESIGN STEPS:
 
 ### STEP 1:
 Load the csv file and then use the preprocessing steps to clean the data
@@ -27,7 +27,7 @@ Split the data to training and testing
 ### STEP 3: 
 Train the data and then predict using Tensorflow
 
-## PROGRAM
+## PROGRAM:
 ```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -189,26 +189,26 @@ x_single_prediction = np.argmax(ai_brain.predict(X_test_scaled[1:2,:]), axis=1)
 print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 ```
-## Dataset Information
+## Dataset Information:
 
 ![dataset](https://user-images.githubusercontent.com/94219582/228419055-7f31f147-ae7d-4645-a35b-90f7414fb8e0.png)
 
-## OUTPUT
+## OUTPUT:
 
-### Training Loss, Validation Loss Vs Iteration Plot
+### Training Loss, Validation Loss Vs Iteration Plot:
 ![image](https://user-images.githubusercontent.com/94219582/228419151-7828098c-b751-434f-ac43-978f0958c52f.png)
 
-### Classification Report
+### Classification Report:
 
 ![image](https://user-images.githubusercontent.com/94219582/228419338-9530f711-63cf-421c-9472-0d1504bd25fd.png)
 
-### Confusion Matrix
+### Confusion Matrix:
 
 ![image](https://user-images.githubusercontent.com/94219582/228419424-ddce07e2-b2ff-4d7b-988c-8070ce1bf1c8.png)
 
-### New Sample Data Prediction
+### New Sample Data Prediction:
 
 ![image](https://user-images.githubusercontent.com/94219582/228420227-57cefc2d-f38d-4b67-9f8c-69e69a2fe160.png)
-## RESULT
+## RESULT:
 Thus, a Simple Neural Network Classification Model is developed successfully.
 
