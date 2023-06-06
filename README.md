@@ -206,9 +206,6 @@ print(le.inverse_transform(x_single_prediction))
 
 ![image](https://user-images.githubusercontent.com/94219582/228419424-ddce07e2-b2ff-4d7b-988c-8070ce1bf1c8.png)
 
-### New Sample Data Prediction:
-
-![image](https://user-images.githubusercontent.com/94219582/228420227-57cefc2d-f38d-4b67-9f8c-69e69a2fe160.png)
 ## RESULT:
 Thus, a Simple Neural Network Classification Model is developed successfully.
 
